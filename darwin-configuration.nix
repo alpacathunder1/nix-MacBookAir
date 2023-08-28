@@ -33,10 +33,13 @@
   # Create /etc/zshrc that loads the nix-darwin environment.
   programs.zsh.enable = true;  # default shell on catalina
   # programs.fish.enable = true;
+  ## neovim aliases
   environment.shellAliases.vi = "nvim";
   environment.shellAliases.vim = "nvim";
   environment.shellAliases.view = "nvim -R \"$@\"";
-
+  ## git aliases
+  environment.shellAliases.gca = "git commit -av";
+  environment.shellAliases.gp = "git -v pull;git -v push";
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog
   system.stateVersion = 4;
