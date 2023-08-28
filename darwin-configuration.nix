@@ -8,6 +8,7 @@
       pkgs.ranger
       pkgs.neofetch
       pkgs.git
+      pkgs.ripgrep
       #pkgs.bitwarden-cli
       #pkgs.obsidian
     ];
