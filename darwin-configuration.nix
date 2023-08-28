@@ -9,11 +9,17 @@
       pkgs.neofetch
       pkgs.git
       pkgs.ripgrep
+      pkgs.tmux
       #pkgs.bitwarden-cli
       #pkgs.obsidian
     ];
 
   networking.hostName = "MacBookAir";
+
+  environment.variables = {
+      EDITOR = "nvim";
+  };
+
   # Use a custom configuration.nix location.
   # $ darwin-rebuild switch -I darwin-config=$HOME/.config/nixpkgs/darwin/configuration.nix
   # environment.darwinConfig = "$HOME/.config/nixpkgs/darwin/configuration.nix";
