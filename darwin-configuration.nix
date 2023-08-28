@@ -39,7 +39,7 @@
   environment.shellAliases.view = "nvim -R \"$@\"";
   ## git aliases
   environment.shellAliases.gca = "git commit -av";
-  environment.shellAliases.gp = "git -v pull;git -v push";
+  environment.shellAliases.gp = "git pull -v;git push -v";
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog
   system.stateVersion = 4;
