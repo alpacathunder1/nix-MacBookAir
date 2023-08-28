@@ -24,4 +24,5 @@ I also need a way to manage updates.  Most of my "Apps" can check for updates in
 + `Firefox 116.0.3.dmg`
 + `Nextcloud-3.9.3.pkg`
 + `Moonlight-4.3.1.dmg`
++ `Microsoft_Remote_Desktop_10.9.0_installer.pkg`
 
