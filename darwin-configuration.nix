@@ -10,6 +10,7 @@
       pkgs.git
       pkgs.ripgrep
       pkgs.tmux
+      pkgs.sshuttle
       #pkgs.bitwarden-cli
       #pkgs.obsidian
     ];
