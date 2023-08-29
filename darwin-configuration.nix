@@ -11,6 +11,7 @@
       pkgs.ripgrep
       pkgs.tmux
       pkgs.sshuttle
+      pkgs.python3
       #pkgs.bitwarden-cli
       #pkgs.obsidian
     ];
