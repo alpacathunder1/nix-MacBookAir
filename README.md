@@ -26,4 +26,5 @@ I also need a way to manage updates.  Most of my "Apps" can check for updates in
 + `Moonlight-4.3.1.dmg`
 + `Microsoft_Remote_Desktop_10.9.0_installer.pkg`
 + `Thunderbird 115.1.1.dmg`
++ `Webex.dmg`
 
