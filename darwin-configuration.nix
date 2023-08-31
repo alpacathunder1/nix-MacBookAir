@@ -12,8 +12,8 @@
       pkgs.tmux
       pkgs.sshuttle
       pkgs.python3
+      pkgs.htop
       #pkgs.bitwarden-cli
-      #pkgs.obsidian
     ];
 
   networking.hostName = "MacBookAir";
