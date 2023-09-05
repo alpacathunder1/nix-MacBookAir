@@ -34,6 +34,8 @@
   # Create /etc/zshrc that loads the nix-darwin environment.
   programs.zsh.enable = true;  # default shell on catalina
   # programs.fish.enable = true;
+  ## Nix Aliases
+  environment.shellAliases.drs = "darwin-rebuild switch";
   ## neovim aliases
   environment.shellAliases.vi = "nvim";
   environment.shellAliases.vim = "nvim";
