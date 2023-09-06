@@ -13,6 +13,7 @@
       pkgs.sshuttle
       pkgs.python3
       pkgs.htop
+      pkgs.pandoc
       #pkgs.bitwarden-cli
     ];
 
