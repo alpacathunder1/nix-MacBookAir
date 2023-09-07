@@ -29,4 +29,5 @@ I also need a way to manage updates.  Most of my "Apps" can check for updates in
 + `Thunderbird 115.1.1.dmg`
 + `Webex.dmg`
 + `FedoraMediaWriter-osx-latest.dmg`
++ `Microsoft_Word_16.76.23082301_Installer.pkg`
 
