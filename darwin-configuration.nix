@@ -14,6 +14,7 @@
       pkgs.python3
       pkgs.htop
       pkgs.pandoc
+      pkgs.pipx
       #pkgs.bitwarden-cli
     ];
 
