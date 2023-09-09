@@ -32,4 +32,5 @@ I also need a way to manage updates.  Most of my "Apps" can check for updates in
 + `Microsoft_Word_16.76.23082301_Installer.pkg`
 + `googlechrome.dmg`
 + `Docker.dmg`
++ `Microsoft_PowerPoint_16.76.23082301_Installer.pkg`
 
