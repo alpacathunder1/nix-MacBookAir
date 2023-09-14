@@ -10,7 +10,6 @@ For completion, here are the things I've done that aren't in my nix conf:
 + Connected to my Wi-Fi
 + Created my local user (alex)
 + Installed the nix package manager
-+ Created a basic git config
 + Added my ssh keys
 + Removed a bunch of extra stuff from the dock
 + Rosetta
