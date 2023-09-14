@@ -13,6 +13,7 @@ For completion, here are the things I've done that aren't in my nix conf:
 + Added my ssh keys
 + Removed a bunch of extra stuff from the dock
 + Rosetta
++ Enabled Japanese IME support
 
 I installed some GUI applications outside of nix since they don't seem to be maintained that well or at all, and I needed to get my laptop into a working state.  I'd like to put these in my nix conf somehow, even if it's just shell scripts that install them through brew.
 
