@@ -26,6 +26,7 @@
       GIT_AUTHOR_NAME = "Alex Taylor";
   };
 
+  homebrew.enable = true;
   ## Dark Mode
   system.defaults.NSGlobalDomain.AppleInterfaceStyle = "Dark";
   ## Autohide dock
