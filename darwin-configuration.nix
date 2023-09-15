@@ -32,6 +32,11 @@
   homebrew.casks = 
   [
     "google-chrome"
+    "thunderbird"
+    "obsidian"
+    "firefox"
+    "moonlight"
+    "nextcloud"
   ];
   ## Dark Mode
   system.defaults.NSGlobalDomain.AppleInterfaceStyle = "Dark";
