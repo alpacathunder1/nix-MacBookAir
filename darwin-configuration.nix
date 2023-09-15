@@ -24,6 +24,8 @@
       EDITOR = "nvim";
       GIT_AUTHOR_EMAIL = "ataylor@posteo.us";
       GIT_AUTHOR_NAME = "Alex Taylor";
+      PATH = "/opt/homebrew/bin:$PATH";
+      HOMEBREW_NO_ANALYTICS = "1";
   };
 
   homebrew.enable = true;
