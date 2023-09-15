@@ -16,7 +16,9 @@ For completion, here are the things I've done that aren't in my nix conf:
 
 I installed some GUI applications outside of nix since they don't seem to be maintained that well or at all, and I needed to get my laptop into a working state.  I'd like to put these in my nix conf somehow, even if it's just shell scripts that install them through brew.
 
-I also need a way to manage updates.  Most of my "Apps" can check for updates in itself, but some (such as Moonlight) cannot.
+~~I also need a way to manage updates.  Most of my "Apps" can check for updates in itself, but some (such as Moonlight) cannot.~~
+
+I'm working on moving these to [brew casks](https://daiderd.com/nix-darwin/manual/index.html#opt-homebrew.casks).
 
 ### Installed Packages
 
