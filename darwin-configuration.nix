@@ -29,6 +29,10 @@
   };
 
   homebrew.enable = true;
+  homebrew.casks = 
+  [
+    "google-chrome"
+  ];
   ## Dark Mode
   system.defaults.NSGlobalDomain.AppleInterfaceStyle = "Dark";
   ## Autohide dock
