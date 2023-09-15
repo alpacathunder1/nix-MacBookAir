@@ -6,7 +6,7 @@ Currently, I haven't done much on the system after wiping outside of this config
 
 For completion, here are the things I've done that aren't in my nix conf:
 
-+ Clicked through the setup & ctre
++ Clicked through the setup
 + Connected to my Wi-Fi
 + Created my local user (alex)
 + Added my ssh keys
