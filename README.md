@@ -15,3 +15,9 @@ For completion, here are the things I've done that aren't in my nix conf:
 + Enabled Japanese IME support
 
 I'm installing ".app's" through [brew casks](https://daiderd.com/nix-darwin/manual/index.html#opt-homebrew.casks).
+
+From my [nixOS Desktop README](https://github.com/alpacathunder1/nixos-Desktop):
+
+> I'm currently using [nixfmt](https://github.com/serokell/nixfmt) to format my code.  I tried integrating it into a git pre-commit hook, but git seemed to use the version *before* the script was ran for the commit.
+> 
+> Instead--I'm just going to try and call the included `nix-format.sh` script before committing, and find a more elegant solution later (famous last words, lol.)
