@@ -16,6 +16,7 @@
     pkgs.pandoc
     pkgs.pipx
     pkgs.nixfmt
+    pkgs.colordiff
     #pkgs.bitwarden-cli
   ];
 
@@ -65,6 +66,8 @@
   ## git aliases
   environment.shellAliases.gca = "git commit -av";
   environment.shellAliases.gp = "git pull -v;git push -v";
+  ## colordiff
+  environment.shellAliases.diff = ''colordiff --nobanner "$@"'';
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog
   system.stateVersion = 4;
