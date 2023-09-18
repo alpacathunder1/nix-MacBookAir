@@ -17,6 +17,7 @@
     pkgs.pipx
     pkgs.nixfmt
     pkgs.colordiff
+    pkgs.fzf
     #pkgs.bitwarden-cli
   ];
 
