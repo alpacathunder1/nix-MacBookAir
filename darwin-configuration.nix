@@ -66,6 +66,7 @@
   ## git aliases
   environment.shellAliases.gca = "git commit -av";
   environment.shellAliases.gp = "git pull -v;git push -v";
+  environment.shellAliases.gs = "git status";
   ## colordiff
   environment.shellAliases.diff = ''colordiff --nobanner "$@"'';
   # Used for backwards compatibility, please read the changelog before changing.
