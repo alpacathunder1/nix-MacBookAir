@@ -29,6 +29,7 @@
     GIT_AUTHOR_NAME = "Alex Taylor";
     PATH = "/opt/homebrew/bin:$PATH";
     HOMEBREW_NO_ANALYTICS = "1";
+    PROMPT = "%n %~ $ ";
   };
 
   homebrew.enable = true;
@@ -58,7 +59,8 @@
   # Create /etc/zshrc that loads the nix-darwin environment.
   programs.zsh.enable = true; # default shell on catalina
   # This gives me trouble with ctrl+r, so I'm commenting it out for now
-  #programs.zsh.promptInit = "set -o vi";
+  programs.zsh.promptInit =
+    ''PROMPT="%n %~ $ " && bindkey '^R' history-incremental-search-backward'';
   # programs.fish.enable = true;
   ## Nix Aliases
   environment.shellAliases.drs = "darwin-rebuild switch";
