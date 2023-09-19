@@ -74,6 +74,8 @@
   environment.shellAliases.gs = "git status";
   ## colordiff
   environment.shellAliases.diff = ''colordiff --nobanner "$@"'';
+  ## ls color
+  environment.shellAliases.ls = "ls --color=always";
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog
   system.stateVersion = 4;
