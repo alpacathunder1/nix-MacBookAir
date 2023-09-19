@@ -57,6 +57,8 @@
 
   # Create /etc/zshrc that loads the nix-darwin environment.
   programs.zsh.enable = true; # default shell on catalina
+  # This gives me trouble with ctrl+r, so I'm commenting it out for now
+  #programs.zsh.promptInit = "set -o vi";
   # programs.fish.enable = true;
   ## Nix Aliases
   environment.shellAliases.drs = "darwin-rebuild switch";
