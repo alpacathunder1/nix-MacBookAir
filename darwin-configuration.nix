@@ -9,7 +9,6 @@
     pkgs.neofetch
     pkgs.git
     pkgs.ripgrep
-    pkgs.tmux
     pkgs.sshuttle
     pkgs.python3
     pkgs.htop
@@ -61,7 +60,9 @@
   # This gives me trouble with ctrl+r, so I'm commenting it out for now
   programs.zsh.promptInit =
     ''PROMPT="%n %~ $ " && bindkey '^R' history-incremental-search-backward'';
-  # programs.fish.enable = true;
+  ## tmux, this mouse command doesn't seem to work?
+  programs.tmux.enable = true;
+  programs.tmux.enableMouse = true;
   ## Nix Aliases
   environment.shellAliases.drs = "darwin-rebuild switch";
   ## neovim aliases
