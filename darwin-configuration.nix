@@ -45,9 +45,7 @@
     "microsoft-powerpoint"
     "signal"
   ];
-  homebrew.brews = [
-    "parera10/csshx/csshx"
-  ];
+  homebrew.brews = [ "parera10/csshx/csshx" ];
   ## Dark Mode
   system.defaults.NSGlobalDomain.AppleInterfaceStyle = "Dark";
   ## Autohide dock
