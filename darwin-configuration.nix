@@ -44,6 +44,7 @@
     "nextcloud"
     "microsoft-powerpoint"
     "signal"
+    "anki"
   ];
   homebrew.brews = [ "parera10/csshx/csshx" ];
   ## Dark Mode
