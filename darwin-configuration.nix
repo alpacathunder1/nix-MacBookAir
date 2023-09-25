@@ -64,8 +64,8 @@
   # Create /etc/zshrc that loads the nix-darwin environment.
   programs.zsh.enable = true; # default shell on catalina
   # This gives me trouble with ctrl+r, so I'm commenting it out for now
-  programs.zsh.promptInit =
-    ''PROMPT="%n %~ $ " && bindkey '^R' history-incremental-search-backward'';
+  programs.zsh.promptInit = ''
+    PROMPT="%n %~ $ " && bindkey '^R' history-incremental-search-backward && test -f /tmp/unlock || ssh-add --apple-use-keychain ~/.ssh/id_rsa && touch /tmp/unlock'';
   # programs.fish.enable = true;
   ## Nix Aliases
   environment.shellAliases.drs = "darwin-rebuild switch";
