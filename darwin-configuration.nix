@@ -40,6 +40,8 @@
     "firefox"
     "moonlight"
     "nextcloud"
+    "microsoft-powerpoint"
+    "signal"
   ];
   ## Dark Mode
   system.defaults.NSGlobalDomain.AppleInterfaceStyle = "Dark";
