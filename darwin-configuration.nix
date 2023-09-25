@@ -33,15 +33,18 @@
   };
 
   homebrew.enable = true;
+  homebrew.taps = [ "parera10/csshx" ];
   homebrew.casks = [
     "google-chrome"
     "thunderbird"
     "obsidian"
     "firefox"
+    "iterm2"
     "moonlight"
     "nextcloud"
     "microsoft-powerpoint"
     "signal"
+    "parera10/csshx/csshx"
   ];
   ## Dark Mode
   system.defaults.NSGlobalDomain.AppleInterfaceStyle = "Dark";
