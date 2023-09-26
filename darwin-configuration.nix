@@ -45,6 +45,7 @@
     "microsoft-powerpoint"
     "signal"
     "anki"
+    "balenaetcher"
   ];
   homebrew.brews = [ "parera10/csshx/csshx" ];
   ## Dark Mode
