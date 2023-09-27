@@ -46,6 +46,7 @@
     "signal"
     "anki"
     "balenaetcher"
+    "xquartz"
   ];
   homebrew.brews = [ "parera10/csshx/csshx" ];
   ## Dark Mode
