@@ -47,6 +47,7 @@
     "anki"
     "balenaetcher"
     "xquartz"
+    "iina"
   ];
   homebrew.brews = [ "parera10/csshx/csshx" ];
   ## Dark Mode
@@ -84,6 +85,8 @@
   environment.shellAliases.diff = ''colordiff --nobanner "$@"'';
   ## ls color
   environment.shellAliases.ls = "ls --color=always";
+  ## iina -> mpv
+  environment.shellAliases.mpv = "iina";
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog
   system.stateVersion = 4;
