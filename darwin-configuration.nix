@@ -43,11 +43,14 @@
     "moonlight"
     "nextcloud"
     "microsoft-powerpoint"
+    "microsoft-word"
     "signal"
+    "spotify"
     "anki"
     "balenaetcher"
     "xquartz"
     "iina"
+    "rectangle"
   ];
   homebrew.brews = [ "parera10/csshx/csshx" ];
   ## Dark Mode
