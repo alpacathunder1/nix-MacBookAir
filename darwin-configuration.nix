@@ -18,6 +18,7 @@
     pkgs.nixfmt
     pkgs.colordiff
     pkgs.fzf
+    pkgs.openssl
     #pkgs.bitwarden-cli
   ];
 
