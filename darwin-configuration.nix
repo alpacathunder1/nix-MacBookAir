@@ -39,7 +39,6 @@
     "google-chrome"
     "thunderbird"
     "obsidian"
-    "firefox"
     "iterm2"
     "moonlight"
     "nextcloud"
