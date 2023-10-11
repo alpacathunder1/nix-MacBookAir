@@ -51,6 +51,7 @@
     "xquartz"
     "iina"
     "rectangle"
+    "discord"
   ];
   homebrew.brews = [ "parera10/csshx/csshx" ];
   ## Dark Mode
