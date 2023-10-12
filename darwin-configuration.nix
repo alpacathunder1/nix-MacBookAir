@@ -76,7 +76,7 @@
     PROMPT="%n %~ $ " && bindkey '^R' history-incremental-search-backward && test -f /tmp/unlock || ssh-add --apple-use-keychain ~/.ssh/id_rsa && touch /tmp/unlock'';
   # programs.fish.enable = true;
   ## Nix Aliases
-  environment.shellAliases.drs = "darwin-rebuild switch";
+  environment.shellAliases.nixUp = "nix-channel --update;darwin-rebuild switch";
   ## neovim aliases
   environment.shellAliases.vi = "nvim";
   environment.shellAliases.vim = "nvim";
