@@ -36,7 +36,7 @@
   homebrew.enable = true;
   homebrew.taps = [ "parera10/csshx" ];
   homebrew.casks = [
-    "google-chrome"
+    "firefox"
     "thunderbird"
     "obsidian"
     "iterm2"
