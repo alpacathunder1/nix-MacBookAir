@@ -20,7 +20,8 @@
     pkgs.fzf
     pkgs.openssl
     pkgs.coreutils
-    #pkgs.bitwarden-cli
+    pkgs.ansible
+    pkgs.bitwarden-cli
   ];
 
   networking.hostName = "MacBookAir";
