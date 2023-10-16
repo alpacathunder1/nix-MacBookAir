@@ -52,8 +52,8 @@
     "xquartz"
     "iina"
     "rectangle"
-    "discord"
     "orangedrangon-android-messages"
+    "caffeine"
   ];
   homebrew.brews = [ "parera10/csshx/csshx" ];
   ## Dark Mode
