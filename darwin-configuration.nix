@@ -19,6 +19,7 @@
     pkgs.colordiff
     pkgs.fzf
     pkgs.openssl
+    pkgs.coreutils
     #pkgs.bitwarden-cli
   ];
 
