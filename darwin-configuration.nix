@@ -22,6 +22,7 @@
     pkgs.coreutils
     pkgs.ansible
     pkgs.bitwarden-cli
+    pkgs.wget
   ];
 
   networking.hostName = "MacBookAir";
