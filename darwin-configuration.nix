@@ -20,8 +20,6 @@
     pkgs.fzf
     pkgs.openssl
     pkgs.coreutils
-    pkgs.ansible
-    pkgs.bitwarden-cli
     pkgs.wget
     pkgs.wireguard-tools
   ];
