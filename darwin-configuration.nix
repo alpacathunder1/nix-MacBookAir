@@ -21,7 +21,6 @@
     pkgs.openssl
     pkgs.coreutils
     pkgs.wget
-    pkgs.wireguard-tools
   ];
 
   networking.hostName = "MacBookAir";
@@ -57,6 +56,9 @@
     "caffeine"
   ];
   homebrew.brews = [ "parera10/csshx/csshx" ];
+  homebrew.masApps = {
+      "Wireguard" = 1451685025;
+    };
   ## Dark Mode
   system.defaults.NSGlobalDomain.AppleInterfaceStyle = "Dark";
   ## Autohide dock
