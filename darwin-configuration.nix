@@ -82,8 +82,8 @@
   environment.shellAliases.nixUp =
     "nix-channel --update;darwin-rebuild switch;brew update;brew upgrade";
   ## neovim aliases
-  programs.neovim.viAlias = true;
-  programs.neovim.vimAlias = true;
+  environment.shellAliases.vi = "nvim";
+  environment.shellAliases.vim = "nvim";
   environment.shellAliases.view = ''nvim -R "$@"'';
   ## git aliases
   environment.shellAliases.gca = "git commit -av";
