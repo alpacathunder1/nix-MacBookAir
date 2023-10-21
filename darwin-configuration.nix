@@ -20,6 +20,7 @@
     pkgs.openssl
     pkgs.coreutils
     pkgs.wget
+    pkgs.w3m
   ];
 
   networking.hostName = "MacBookAir";
