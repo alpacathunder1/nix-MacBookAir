@@ -53,6 +53,7 @@
     "rectangle"
     "orangedrangon-android-messages"
     "caffeine"
+    "vscodium"
   ];
   homebrew.brews = [ "parera10/csshx/csshx" ];
   homebrew.masApps = { "Wireguard" = 1451685025; };
