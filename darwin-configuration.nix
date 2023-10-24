@@ -56,6 +56,7 @@
     "orangedrangon-android-messages"
     "caffeine"
     "vscodium"
+    "puppetlabs/puppet/pdk"
   ];
   homebrew.brews = [ "parera10/csshx/csshx" ];
   homebrew.masApps = {
