@@ -86,6 +86,7 @@
   ## Nix Aliases
   environment.shellAliases.nixUp =
     "nix-channel --update;darwin-rebuild switch;brew update;brew upgrade";
+  environment.shellAliases.obsidianUp = "brew reinstall obsidian";
   ## neovim aliases
   environment.shellAliases.vi = "nvim";
   environment.shellAliases.vim = "nvim";
