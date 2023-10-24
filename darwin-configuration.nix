@@ -21,6 +21,7 @@
     pkgs.coreutils
     pkgs.wget
     pkgs.w3m
+    pkgs.mediainfo
   ];
 
   networking.hostName = "MacBookAir";
@@ -57,7 +58,10 @@
     "vscodium"
   ];
   homebrew.brews = [ "parera10/csshx/csshx" ];
-  homebrew.masApps = { "Wireguard" = 1451685025; };
+  homebrew.masApps = {
+    "Wireguard" = 1451685025;
+    "Pixelamator" = 1289583905;
+  };
   ## Dark Mode
   system.defaults.NSGlobalDomain.AppleInterfaceStyle = "Dark";
   ## Autohide dock
