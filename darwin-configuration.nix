@@ -44,8 +44,6 @@
     "iterm2"
     "moonlight"
     "nextcloud"
-    "microsoft-powerpoint"
-    "microsoft-word"
     "signal"
     "spotify"
     "anki"
@@ -57,11 +55,15 @@
     "caffeine"
     "vscodium"
     "puppetlabs/puppet/pdk"
+    "appcleaner"
   ];
   homebrew.brews = [ "parera10/csshx/csshx" ];
   homebrew.masApps = {
     "Wireguard" = 1451685025;
     "Pixelamator" = 1289583905;
+    "Microsoft Word" = 462054704;
+    "Microsoft PowerPoint" = 462062816;
+    "Microsoft Excel" = 462058435;
   };
   ## Dark Mode
   system.defaults.NSGlobalDomain.AppleInterfaceStyle = "Dark";
