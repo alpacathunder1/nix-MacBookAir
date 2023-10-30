@@ -57,8 +57,9 @@
     "vscodium"
     "puppetlabs/puppet/pdk"
     "appcleaner"
+    "webex"
   ];
-  homebrew.brews = [ "parera10/csshx/csshx" ];
+  homebrew.brews = [ "parera10/csshx/csshx" "poppler" ];
   homebrew.masApps = {
     "Wireguard" = 1451685025;
     "Pixelamator" = 1289583905;
@@ -84,8 +85,8 @@
   # Create /etc/zshrc that loads the nix-darwin environment.
   programs.zsh.enable = true; # default shell on catalina
   # This gives me trouble with ctrl+r, so I'm commenting it out for now
-  programs.zsh.promptInit = ''
-    PROMPT="%n %~ $ " && bindkey '^R' history-incremental-search-backward'';
+  programs.zsh.promptInit =
+    ''PROMPT="%n %~ $ " && bindkey '^R' history-incremental-search-backward'';
   # programs.fish.enable = true;
   ## Nix Aliases
   environment.shellAliases.nixUp =
