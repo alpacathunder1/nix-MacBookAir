@@ -6,6 +6,7 @@
   environment.systemPackages = [
     pkgs.neovim
     pkgs.ranger
+    pkgs.findutils
     pkgs.neofetch
     pkgs.git
     pkgs.ripgrep
