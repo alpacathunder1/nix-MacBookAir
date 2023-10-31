@@ -9,7 +9,6 @@
     pkgs.neofetch
     pkgs.git
     pkgs.ripgrep
-    pkgs.tmux
     pkgs.python3
     pkgs.htop
     pkgs.pandoc
@@ -87,6 +86,8 @@
   programs.zsh.promptInit =
     ''PROMPT="%n %~ $ " && bindkey '^R' history-incremental-search-backward'';
   # programs.fish.enable = true;
+  programs.tmux.enable = true;
+  programs.tmux.enableMouse = true;
   ## Nix Aliases
   environment.shellAliases.nixUp =
     "nix-channel --update;darwin-rebuild switch;brew update;brew upgrade";
