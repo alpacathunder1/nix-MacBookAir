@@ -20,7 +20,6 @@
     pkgs.openssl
     pkgs.coreutils
     pkgs.wget
-    pkgs.w3m
     pkgs.mediainfo
     pkgs.shellcheck
   ];
