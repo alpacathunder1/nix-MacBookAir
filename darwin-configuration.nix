@@ -46,7 +46,7 @@
     "nextcloud"
     "signal"
     "spotify"
-    "anki"
+    #"anki"
     "balenaetcher"
     "xquartz"
     "iina"
@@ -58,7 +58,8 @@
     "appcleaner"
     "webex"
   ];
-  homebrew.brews = [ "parera10/csshx/csshx" "poppler" ];
+  homebrew.brews =
+    [ "parera10/csshx/csshx" "poppler" "simple-scan" "virt-manager" ];
   homebrew.masApps = {
     "Wireguard" = 1451685025;
     "Pixelamator" = 1289583905;
