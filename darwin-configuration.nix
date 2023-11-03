@@ -12,7 +12,6 @@
     pkgs.ripgrep
     pkgs.python3
     pkgs.htop
-    pkgs.pandoc
     pkgs.pipx
     pkgs.nixfmt
     pkgs.colordiff
@@ -68,7 +67,7 @@
     "Microsoft Excel" = 462058435;
   };
   ## Dark Mode
-  system.defaults.NSGlobalDomain.AppleInterfaceStyle = "Dark";
+  system.defaults.NSGlobalDomain.AppleInterfaceStyle = null;
   ## Autohide dock
   system.defaults.dock.autohide = true;
   ## Hot Corner
