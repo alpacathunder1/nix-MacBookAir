@@ -56,6 +56,7 @@
     "puppetlabs/puppet/pdk"
     "appcleaner"
     "webex"
+    "calibre"
   ];
   homebrew.brews =
     [ "parera10/csshx/csshx" "poppler" "simple-scan" "virt-manager" ];
@@ -67,7 +68,7 @@
     "Microsoft Excel" = 462058435;
   };
   ## Dark Mode
-  system.defaults.NSGlobalDomain.AppleInterfaceStyle = null;
+  system.defaults.NSGlobalDomain.AppleInterfaceStyle = "Dark";
   ## Autohide dock
   system.defaults.dock.autohide = true;
   ## Hot Corner
