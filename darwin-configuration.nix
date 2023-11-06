@@ -57,6 +57,8 @@
     "appcleaner"
     "webex"
     "calibre"
+    "malwarebytes"
+    "zotero"
   ];
   homebrew.brews =
     [ "parera10/csshx/csshx" "poppler" "simple-scan" "virt-manager" ];
