@@ -21,6 +21,8 @@
     pkgs.wget
     pkgs.mediainfo
     pkgs.shellcheck
+    pkgs.pandoc
+    pkgs.fd
   ];
 
   networking.hostName = "MacBookAir";
