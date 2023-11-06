@@ -31,7 +31,7 @@
     EDITOR = "nvim";
     GIT_AUTHOR_EMAIL = "ataylor@posteo.us";
     GIT_AUTHOR_NAME = "Alex Taylor";
-    PATH = "/opt/homebrew/bin:$PATH";
+    PATH = "/opt/homebrew/bin:/opt/homebrew/sbin:$PATH";
     HOMEBREW_NO_ANALYTICS = "1";
     PROMPT = "%n %~ $ ";
   };
