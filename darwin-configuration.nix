@@ -94,7 +94,8 @@
   # programs.fish.enable = true;
   programs.tmux.enable = true;
   programs.tmux.enableMouse = true;
-  programs.tmux.extraConfig = ''set -g default-terminal "screen-256color"'';
+  programs.tmux.extraConfig = ''
+    set -g default-terminal "screen-256color";set-option -g status-right "\"#W\" %F "'';
   ## Nix Aliases
   environment.shellAliases.nixUp =
     "nix-channel --update;darwin-rebuild switch;brew update;brew upgrade";
