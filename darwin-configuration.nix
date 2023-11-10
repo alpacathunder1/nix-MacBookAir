@@ -4,25 +4,25 @@
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
   environment.systemPackages = [
-    pkgs.neovim
-    pkgs.ranger
-    pkgs.findutils
-    pkgs.neofetch
-    pkgs.git
-    pkgs.ripgrep
-    pkgs.python3
-    pkgs.htop
-    pkgs.pipx
-    pkgs.nixfmt
     pkgs.colordiff
-    pkgs.fzf
-    pkgs.openssl
     pkgs.coreutils
-    pkgs.wget
-    pkgs.mediainfo
-    pkgs.shellcheck
-    pkgs.pandoc
     pkgs.fd
+    pkgs.findutils
+    pkgs.fzf
+    pkgs.git
+    pkgs.htop
+    pkgs.mediainfo
+    pkgs.neofetch
+    pkgs.neovim
+    pkgs.nixfmt
+    pkgs.openssl
+    pkgs.pandoc
+    pkgs.pipx
+    pkgs.python3
+    pkgs.ranger
+    pkgs.ripgrep
+    pkgs.shellcheck
+    pkgs.wget
   ];
 
   networking.hostName = "MacBookAir";
@@ -39,38 +39,39 @@
   homebrew.enable = true;
   homebrew.taps = [ "parera10/csshx" ];
   homebrew.casks = [
+    "appcleaner"
+    "balenaetcher"
+    "caffeine"
+    "calibre"
+    "discord"
     "firefox"
-    "thunderbird"
-    "obsidian"
+    "iina"
     "iterm2"
+    "malwarebytes"
     "moonlight"
     "nextcloud"
-    "signal"
-    "discord"
-    "spotify"
-    "balenaetcher"
-    "xquartz"
-    "iina"
-    "rectangle"
+    "obsidian"
     "orangedrangon-android-messages"
-    "caffeine"
-    "vscodium"
     "puppetlabs/puppet/pdk"
-    "appcleaner"
+    "rectangle"
+    "signal"
+    "spotify"
+    "the-unarchiver"
+    "thunderbird"
+    "vscodium"
     "webex"
-    "calibre"
-    "malwarebytes"
+    "xquartz"
     "zotero"
   ];
   homebrew.brews =
     [ "parera10/csshx/csshx" "poppler" "simple-scan" "virt-manager" ];
   homebrew.masApps = {
-    "Wireguard" = 1451685025;
-    "Pixelamator" = 1289583905;
-    "Microsoft Word" = 462054704;
-    "Microsoft PowerPoint" = 462062816;
     "Microsoft Excel" = 462058435;
+    "Microsoft PowerPoint" = 462062816;
     "Microsoft Remote Desktop" = 1295203466;
+    "Microsoft Word" = 462054704;
+    "Pixelamator" = 1289583905;
+    "Wireguard" = 1451685025;
   };
   ## Dark Mode
   system.defaults.NSGlobalDomain.AppleInterfaceStyle = "Dark";
