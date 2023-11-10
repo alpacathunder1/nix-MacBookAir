@@ -46,8 +46,8 @@
     "moonlight"
     "nextcloud"
     "signal"
+    "discord"
     "spotify"
-    #"anki"
     "balenaetcher"
     "xquartz"
     "iina"
@@ -70,6 +70,7 @@
     "Microsoft Word" = 462054704;
     "Microsoft PowerPoint" = 462062816;
     "Microsoft Excel" = 462058435;
+    "Microsoft Remote Desktop" = 1295203466;
   };
   ## Dark Mode
   system.defaults.NSGlobalDomain.AppleInterfaceStyle = "Dark";
@@ -117,4 +118,3 @@
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog
   system.stateVersion = 4;
-}
