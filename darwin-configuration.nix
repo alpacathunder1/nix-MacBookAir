@@ -45,6 +45,7 @@
     "calibre"
     "discord"
     "firefox"
+    "google-chrome"
     "iina"
     "iterm2"
     "keka"
