@@ -88,12 +88,10 @@
   nixpkgs.config.allowUnfree = true;
   # nix.package = pkgs.nix;
 
-  # Create /etc/zshrc that loads the nix-darwin environment.
+  programs.fish.enable = true;
   programs.zsh.enable = true; # default shell on catalina
-  # This gives me trouble with ctrl+r, so I'm commenting it out for now
   programs.zsh.promptInit =
     ''PROMPT="%n %~ $ " && bindkey '^R' history-incremental-search-backward'';
-  # programs.fish.enable = true;
   programs.tmux.enable = true;
   programs.tmux.enableMouse = true;
   programs.tmux.extraConfig = ''
@@ -105,13 +103,13 @@
   ## neovim aliases
   environment.shellAliases.vi = "nvim";
   environment.shellAliases.vim = "nvim";
-  environment.shellAliases.view = ''nvim -R "$@"'';
+  environment.shellAliases.view = ''nvim -R $argv'';
   ## git aliases
   environment.shellAliases.gca = "git commit -av";
   environment.shellAliases.gp = "git pull -v;git push -v";
   environment.shellAliases.gs = "git status";
   ## colordiff
-  environment.shellAliases.diff = ''colordiff --nobanner "$@"'';
+  environment.shellAliases.diff = ''colordiff --nobanner $argv'';
   ## ls color
   environment.shellAliases.ls = "ls --color=always";
   ## iina -> mpv
