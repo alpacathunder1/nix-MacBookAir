@@ -23,6 +23,7 @@
     pkgs.ripgrep
     pkgs.shellcheck
     pkgs.wget
+    pkgs.xkcdpass
   ];
 
   networking.hostName = "MacBookAir";
@@ -39,6 +40,7 @@
   homebrew.enable = true;
   homebrew.taps = [ "parera10/csshx" ];
   homebrew.casks = [
+    "anki"
     "appcleaner"
     "balenaetcher"
     "caffeine"
@@ -59,13 +61,20 @@
     "signal"
     "spotify"
     "thunderbird"
+    "vorta"
     "vscodium"
     "webex"
     "xquartz"
     "zotero"
   ];
-  homebrew.brews =
-    [ "parera10/csshx/csshx" "poppler" "simple-scan" "virt-manager" ];
+  homebrew.brews = [
+    "parera10/csshx/csshx"
+    "poppler"
+    "simple-scan"
+    "virt-manager"
+    "borgbackup"
+    "python-markdown"
+  ];
   homebrew.masApps = {
     "Microsoft Excel" = 462058435;
     "Microsoft PowerPoint" = 462062816;
@@ -104,13 +113,13 @@
   ## neovim aliases
   environment.shellAliases.vi = "nvim";
   environment.shellAliases.vim = "nvim";
-  environment.shellAliases.view = ''nvim -R $argv'';
+  environment.shellAliases.view = "nvim -R $argv";
   ## git aliases
   environment.shellAliases.gca = "git commit -av";
   environment.shellAliases.gp = "git pull -v;git push -v";
   environment.shellAliases.gs = "git status";
   ## colordiff
-  environment.shellAliases.diff = ''colordiff --nobanner $argv'';
+  environment.shellAliases.diff = "colordiff --nobanner $argv";
   ## ls color
   environment.shellAliases.ls = "ls --color=always";
   ## iina -> mpv
