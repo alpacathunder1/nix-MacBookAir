@@ -40,7 +40,6 @@
   homebrew.enable = true;
   homebrew.taps = [ "parera10/csshx" ];
   homebrew.casks = [
-    "anki"
     "appcleaner"
     "balenaetcher"
     "caffeine"
