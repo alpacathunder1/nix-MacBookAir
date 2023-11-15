@@ -55,6 +55,7 @@
     "nextcloud"
     "obsidian"
     "orangedrangon-android-messages"
+    "parsec"
     "puppetlabs/puppet/pdk"
     "rectangle"
     "signal"
@@ -78,7 +79,6 @@
     "Microsoft Excel" = 462058435;
     "Microsoft PowerPoint" = 462062816;
     "Microsoft Remote Desktop" = 1295203466;
-    "Microsoft Word" = 462054704;
     "Pixelamator" = 1289583905;
     "Wireguard" = 1451685025;
   };
