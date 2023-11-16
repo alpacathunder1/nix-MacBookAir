@@ -47,7 +47,6 @@
     "discord"
     "firefox"
     "google-chrome"
-    "google-drive"
     "iina"
     "iterm2"
     "keka"
