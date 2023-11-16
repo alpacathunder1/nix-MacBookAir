@@ -65,7 +65,6 @@
     "vscodium"
     "webex"
     "xquartz"
-    "zotero"
   ];
   homebrew.brews = [
     "parera10/csshx/csshx"
