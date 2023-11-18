@@ -38,13 +38,14 @@
   };
 
   homebrew.enable = true;
-  homebrew.taps = [ "parera10/csshx" ];
+  homebrew.taps = [ "parera10/csshx" "homebrew/cask-fonts" ];
   homebrew.casks = [
     "appcleaner"
     "balenaetcher"
     "caffeine"
     "calibre"
     "discord"
+    "homebrew/cask-fonts/font-bebas-neue"
     "firefox"
     "google-chrome"
     "iina"
