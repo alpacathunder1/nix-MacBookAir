@@ -51,6 +51,7 @@
     "iina"
     "iterm2"
     "keka"
+    "kobo"
     "malwarebytes"
     "moonlight"
     "nextcloud"
