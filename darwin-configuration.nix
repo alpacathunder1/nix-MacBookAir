@@ -21,6 +21,7 @@
     pkgs.python3
     pkgs.ranger
     pkgs.ripgrep
+    pkgs.openssh
     pkgs.shellcheck
     pkgs.wget
     pkgs.xkcdpass
@@ -53,7 +54,6 @@
     "keka"
     "kobo"
     "malwarebytes"
-    "moonlight"
     "obsidian"
     "orangedrangon-android-messages"
     "parsec"
@@ -124,6 +124,8 @@
   environment.shellAliases.ls = "ls --color=always";
   ## iina -> mpv
   environment.shellAliases.mpv = "iina";
+  ## use nix's sftp
+  environment.shellAliases.sftp = "/run/current-system/sw/bin/sftp";
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog
   system.stateVersion = 4;
