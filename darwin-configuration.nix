@@ -23,6 +23,7 @@
     pkgs.ripgrep
     pkgs.openssh
     pkgs.shellcheck
+    pkgs.sshuttle
     pkgs.wget
     pkgs.xkcdpass
   ];
@@ -63,6 +64,7 @@
     "spotify"
     "syncthing"
     "thunderbird"
+    "virt-manager"
     "vorta"
     "vscodium"
     "webex"
@@ -72,7 +74,6 @@
     "parera10/csshx/csshx"
     "poppler"
     "simple-scan"
-    "virt-manager"
     "borgbackup"
     "python-markdown"
   ];
@@ -81,7 +82,6 @@
     "Microsoft PowerPoint" = 462062816;
     "Microsoft Remote Desktop" = 1295203466;
     "Pixelamator" = 1289583905;
-    "Wireguard" = 1451685025;
   };
   ## Dark Mode
   system.defaults.NSGlobalDomain.AppleInterfaceStyle = "Dark";
