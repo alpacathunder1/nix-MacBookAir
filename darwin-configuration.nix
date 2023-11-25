@@ -64,7 +64,6 @@
     "spotify"
     "syncthing"
     "thunderbird"
-    "virt-manager"
     "vorta"
     "vscodium"
     "webex"
@@ -74,6 +73,7 @@
     "parera10/csshx/csshx"
     "poppler"
     "simple-scan"
+    "virt-manager"
     "borgbackup"
     "python-markdown"
   ];
@@ -126,6 +126,8 @@
   environment.shellAliases.mpv = "iina";
   ## use nix's sftp
   environment.shellAliases.sftp = "/run/current-system/sw/bin/sftp";
+  environment.shellAliases.virt-manager = "XDG_DATA_DIRS='' virt-manager";
+  ## environment fix for nix/brew & virt-manager
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog
   system.stateVersion = 4;
