@@ -75,7 +75,6 @@
     "simple-scan"
     "virt-manager"
     "borgbackup"
-    "python-markdown"
   ];
   homebrew.masApps = {
     "Microsoft Excel" = 462058435;
