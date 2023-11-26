@@ -75,7 +75,6 @@
     "simple-scan"
     "virt-manager"
     "borgbackup"
-    "python-markdown"
   ];
   homebrew.masApps = {
     "Microsoft Excel" = 462058435;
@@ -98,7 +97,6 @@
   nixpkgs.config.allowUnfree = true;
   # nix.package = pkgs.nix;
 
-  programs.fish.enable = true;
   programs.zsh.enable = true; # default shell on catalina
   programs.zsh.promptInit =
     ''PROMPT="%n %~ $ " && bindkey '^R' history-incremental-search-backward'';
