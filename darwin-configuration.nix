@@ -78,6 +78,7 @@
     "borgbackup"
   ];
   homebrew.masApps = {
+    "LINE" = 539883307;
     "Microsoft Excel" = 462058435;
     "Microsoft PowerPoint" = 462062816;
     "Microsoft Remote Desktop" = 1295203466;
