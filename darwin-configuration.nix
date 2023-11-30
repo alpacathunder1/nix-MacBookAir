@@ -26,6 +26,7 @@
     pkgs.sshuttle
     pkgs.wget
     pkgs.xkcdpass
+    pkgs.yt-dlp
   ];
 
   networking.hostName = "MacBookAir";
@@ -125,7 +126,8 @@
   environment.shellAliases.mpv = "iina";
   ## use nix's sftp
   environment.shellAliases.sftp = "/run/current-system/sw/bin/sftp";
-  environment.shellAliases.virt-manager = "XDG_DATA_DIRS='' virt-manager";
+  environment.shellAliases.virt-manager =
+    "XDG_DATA_DIRS='' /opt/homebrew/bin/virt-manager";
   ## environment fix for nix/brew & virt-manager
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog
