@@ -21,6 +21,7 @@
     pkgs.python3
     pkgs.ranger
     pkgs.ripgrep
+    pkgs.rsync
     pkgs.openssh
     pkgs.shellcheck
     pkgs.sshuttle
@@ -127,9 +128,11 @@
   environment.shellAliases.mpv = "iina";
   ## use nix's sftp
   environment.shellAliases.sftp = "/run/current-system/sw/bin/sftp";
+  ## use nix's rsync
+  environment.shellAliases.rsync = "/run/current-system/sw/bin/rsync";
+  ## environment fix for nix/brew & virt-manager
   environment.shellAliases.virt-manager =
     "XDG_DATA_DIRS='' /opt/homebrew/bin/virt-manager";
-  ## environment fix for nix/brew & virt-manager
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog
   system.stateVersion = 4;
