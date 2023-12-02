@@ -6,11 +6,13 @@
   environment.systemPackages = [
     pkgs.colordiff
     pkgs.coreutils
+    pkgs.exiftool
     pkgs.fd
     pkgs.findutils
     pkgs.fzf
     pkgs.git
     pkgs.htop
+    pkgs.imagemagick
     pkgs.mediainfo
     pkgs.neofetch
     pkgs.neovim
@@ -56,7 +58,6 @@
     "iterm2"
     "keka"
     "kobo"
-    "malwarebytes"
     "obsidian"
     "orangedrangon-android-messages"
     "parsec"
