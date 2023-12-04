@@ -19,6 +19,7 @@
     pkgs.nixfmt
     pkgs.openssl
     pkgs.pandoc
+    pkgs.parallel
     pkgs.pipx
     pkgs.python3
     pkgs.ranger
@@ -131,9 +132,11 @@
   environment.shellAliases.sftp = "/run/current-system/sw/bin/sftp";
   ## use nix's rsync
   environment.shellAliases.rsync = "/run/current-system/sw/bin/rsync";
-  ## environment fix for nix/brew & virt-manager
+  ## environment fix for nix/brew & virt-manager & simple-scan
   environment.shellAliases.virt-manager =
     "XDG_DATA_DIRS='' /opt/homebrew/bin/virt-manager";
+  environment.shellAliases.simple-scan =
+    "XDG_DATA_DIRS='' /opt/homebrew/bin/simple-scan";
   # Used for backwards compatibility, please read the changelog before changing.
   # $ darwin-rebuild changelog
   system.stateVersion = 4;
