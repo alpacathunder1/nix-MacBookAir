@@ -67,7 +67,6 @@
     "rectangle"
     "signal"
     "spotify"
-    "syncthing"
     "thunderbird"
     "vorta"
     "vscodium"
