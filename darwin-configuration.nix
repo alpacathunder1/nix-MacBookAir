@@ -52,7 +52,6 @@
     "balenaetcher"
     "caffeine"
     "calibre"
-    "discord"
     "homebrew/cask-fonts/font-bebas-neue"
     "firefox"
     "google-chrome"
