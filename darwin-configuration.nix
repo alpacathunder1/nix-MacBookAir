@@ -134,7 +134,7 @@
   environment.shellAliases.rsync = "/run/current-system/sw/bin/rsync";
   ## environment fix for nix/brew & virt-manager & simple-scan
   environment.shellAliases.virt-manager =
-    "XDG_DATA_DIRS='' /opt/homebrew/bin/virt-manager";
+    "OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES='' XDG_DATA_DIRS='' /opt/homebrew/bin/virt-manager --no-fork";
   environment.shellAliases.simple-scan =
     "XDG_DATA_DIRS='' /opt/homebrew/bin/simple-scan";
   # Used for backwards compatibility, please read the changelog before changing.
