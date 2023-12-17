@@ -56,6 +56,7 @@
     "homebrew/cask-fonts/font-bebas-neue"
     "firefox"
     "google-chrome"
+    "google-drive"
     "iina"
     "iterm2"
     "keka"
