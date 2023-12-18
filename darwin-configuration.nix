@@ -5,6 +5,7 @@
   # $ nix-env -qaP | grep wget
   environment.systemPackages = [
     pkgs.ansible
+    pkgs.bitwarden-cli
     pkgs.colordiff
     pkgs.coreutils
     pkgs.exiftool

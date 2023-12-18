@@ -13,6 +13,7 @@ For completion, here are the things I've done that aren't in my nix conf:
 + Removed a bunch of extra stuff from the dock
 + Rosetta
 + Enabled Japanese IME support
++ Logged into Bitwarden CLI (for ansible secrets)
 
 I'm installing ".app's" through [brew casks](https://daiderd.com/nix-darwin/manual/index.html#opt-homebrew.casks).
 
