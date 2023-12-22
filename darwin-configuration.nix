@@ -136,6 +136,8 @@
   environment.shellAliases.sftp = "/run/current-system/sw/bin/sftp";
   ## use nix's rsync
   environment.shellAliases.rsync = "/run/current-system/sw/bin/rsync";
+  ## use nix's cut
+  environment.shellAliases.cut = "/run/current-system/sw/bin/cut";
   ## environment fix for nix/brew & virt-manager & simple-scan
   environment.shellAliases.virt-manager =
     "OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES='' XDG_DATA_DIRS='' /opt/homebrew/bin/virt-manager --no-fork";
