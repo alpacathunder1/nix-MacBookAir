@@ -5,6 +5,7 @@
   # $ nix-env -qaP | grep wget
   environment.systemPackages = [
     pkgs.ansible
+    pkgs.ansible-lint
     pkgs.bitwarden-cli
     pkgs.colordiff
     pkgs.coreutils
@@ -47,7 +48,7 @@
   };
 
   homebrew.enable = true;
-  homebrew.taps = [ "parera10/csshx" "homebrew/cask-fonts" ];
+  homebrew.taps = [ "parera10/csshx" "homebrew/cask-fonts" "homebrew/cask-versions"];
   homebrew.casks = [
     "anki"
     "appcleaner"
@@ -57,6 +58,7 @@
     # Having issues installing right now
     # "docker"
     "homebrew/cask-fonts/font-bebas-neue"
+    "homebrew/cask-versions/virtualbox-beta"
     "firefox"
     "google-chrome"
     "google-drive"
