@@ -55,8 +55,6 @@
     "balenaetcher"
     "caffeine"
     "calibre"
-    # Having issues installing right now
-    # "docker"
     "homebrew/cask-fonts/font-bebas-neue"
     "firefox"
     "google-chrome"
