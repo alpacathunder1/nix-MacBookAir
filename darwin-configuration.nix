@@ -5,7 +5,6 @@
   # $ nix-env -qaP | grep wget
   environment.systemPackages = [
     pkgs.ansible
-    pkgs.ansible-lint
     pkgs.bitwarden-cli
     pkgs.colordiff
     pkgs.coreutils
@@ -77,6 +76,7 @@
     "xquartz"
   ];
   homebrew.brews = [
+    "ansible-lint"
     "parera10/csshx/csshx"
     "poppler"
     "simple-scan"
