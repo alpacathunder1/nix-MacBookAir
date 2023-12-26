@@ -91,7 +91,7 @@
     "Pixelamator" = 1289583905;
   };
   ## Dark Mode
-  system.defaults.NSGlobalDomain.AppleInterfaceStyle = "Dark";
+  system.defaults.NSGlobalDomain.AppleInterfaceStyle = null;
   ## Autohide dock
   system.defaults.dock.autohide = true;
   ## Hot Corner
