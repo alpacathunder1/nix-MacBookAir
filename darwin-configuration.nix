@@ -68,7 +68,6 @@
     "puppetlabs/puppet/pdk"
     "rectangle"
     "signal"
-    "spotify"
     "thunderbird"
     "vorta"
     "vscodium"
