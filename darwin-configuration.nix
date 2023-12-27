@@ -73,6 +73,7 @@
     "vscodium"
     "webex"
     "xquartz"
+    "zoom"
   ];
   homebrew.brews = [
     "ansible-lint"
