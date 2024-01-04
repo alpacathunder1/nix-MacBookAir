@@ -68,6 +68,7 @@
     "rectangle"
     "signal"
     "thunderbird"
+    "ueli"
     "vorta"
     "vscodium"
     "webex"
@@ -88,6 +89,7 @@
     "Microsoft PowerPoint" = 462062816;
     "Microsoft Remote Desktop" = 1295203466;
     "Pixelamator" = 1289583905;
+    "Wireguard" = 1451685025;
   };
   ## Dark Mode
   system.defaults.NSGlobalDomain.AppleInterfaceStyle = null;
