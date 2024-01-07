@@ -137,6 +137,9 @@
   environment.shellAliases.simple-scan =
     "XDG_DATA_DIRS='' /opt/homebrew/bin/simple-scan";
   # Used for backwards compatibility, please read the changelog before changing.
+  ## wireguard up
+  environment.shellAliases.wgup = "wg-quick up Home";
+  environment.shellAliases.wgdown = "wg-quick down Home";
   # $ darwin-rebuild changelog
   system.stateVersion = 4;
 }
