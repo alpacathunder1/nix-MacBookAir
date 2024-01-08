@@ -8,7 +8,6 @@
     pkgs.bitwarden-cli
     pkgs.colordiff
     pkgs.coreutils-prefixed
-    pkgs.emacs29
     pkgs.exiftool
     pkgs.fd
     pkgs.findutils
