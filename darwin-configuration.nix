@@ -7,7 +7,7 @@
     pkgs.ansible
     pkgs.bitwarden-cli
     pkgs.colordiff
-    pkgs.coreutils
+    pkgs.coreutils-prefixed
     pkgs.exiftool
     pkgs.fd
     pkgs.findutils
@@ -121,8 +121,8 @@
   environment.shellAliases.gs = "git status";
   ## colordiff
   environment.shellAliases.diff = "colordiff --nobanner $argv";
-  ## ls color
-  environment.shellAliases.ls = "ls --color=always";
+  ## use gnu ls
+  environment.shellAliases.ls = "gls --color=always";
   ## iina -> mpv
   environment.shellAliases.mpv = "iina";
   ## use nix's sftp
