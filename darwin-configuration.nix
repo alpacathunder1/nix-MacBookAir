@@ -64,7 +64,6 @@
     "signal"
     "thunderbird"
     "ueli"
-    "vorta"
     "webex"
     "xquartz"
   ];
@@ -74,7 +73,6 @@
     "poppler"
     "simple-scan"
     "virt-manager"
-    "borgbackup"
     "wireguard-tools"
   ];
   homebrew.masApps = {
