@@ -60,12 +60,14 @@
     "keka"
     "obsidian"
     "parsec"
+    "puppetlabs/puppet/pdk"
     "rectangle"
     "signal"
     "thunderbird"
     "ueli"
     "webex"
     "xquartz"
+    "vscodium"
   ];
   homebrew.brews = [
     "ansible-lint"
