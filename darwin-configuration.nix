@@ -31,7 +31,6 @@
     pkgs.shellcheck
     pkgs.sshuttle
     pkgs.wget
-    pkgs.xkcdpass
     pkgs.yt-dlp
   ];
 
