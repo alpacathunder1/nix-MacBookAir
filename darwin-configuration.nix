@@ -3,36 +3,6 @@
 {
   # List packages installed in system profile. To search by name, run:
   # $ nix-env -qaP | grep wget
-  environment.systemPackages = [
-    pkgs.ansible
-    pkgs.bitwarden-cli
-    pkgs.colordiff
-    pkgs.coreutils-prefixed
-    pkgs.exiftool
-    pkgs.fd
-    pkgs.findutils
-    pkgs.fzf
-    pkgs.git
-    pkgs.htop
-    pkgs.imagemagick
-    pkgs.mediainfo
-    pkgs.neofetch
-    pkgs.neovim
-    pkgs.nixfmt
-    pkgs.openssl
-    pkgs.pandoc
-    pkgs.parallel
-    pkgs.python3
-    pkgs.ranger
-    pkgs.ripgrep
-    pkgs.rsync
-    pkgs.openssh
-    pkgs.shellcheck
-    pkgs.sshuttle
-    pkgs.wget
-    pkgs.yt-dlp
-  ];
-
   networking.hostName = "MacBookAir";
 
   environment.variables = {
@@ -69,6 +39,32 @@
     "vscodium"
   ];
   homebrew.brews = [
+    "ansible"
+    "bitwarden-cli"
+    "colordiff"
+    "coreutils"
+    "exiftool"
+    "fd"
+    "findutils"
+    "fzf"
+    "git"
+    "htop"
+    "imagemagick"
+    "mediainfo"
+    "neofetch"
+    "neovim"
+    "openssl"
+    "pandoc"
+    "parallel"
+    "python3"
+    "ranger"
+    "ripgrep"
+    "rsync"
+    "openssh"
+    "shellcheck"
+    "sshuttle"
+    "wget"
+    "yt-dlp"
     "ansible-lint"
     "parera10/csshx/csshx"
     "poppler"
@@ -124,12 +120,12 @@
   environment.shellAliases.ls = "gls --color=always";
   ## iina -> mpv
   environment.shellAliases.mpv = "iina";
-  ## use nix's sftp
-  environment.shellAliases.sftp = "/run/current-system/sw/bin/sftp";
-  ## use nix's rsync
-  environment.shellAliases.rsync = "/run/current-system/sw/bin/rsync";
-  ## use nix's cut
-  environment.shellAliases.cut = "/run/current-system/sw/bin/gcut";
+  ## use brew's sftp
+  environment.shellAliases.sftp = "/opt/homebrew/bin/sftp";
+  ## use brew's rsync
+  environment.shellAliases.rsync = "/opt/homebrew/bin/rsync";
+  ## use brew's cut
+  environment.shellAliases.cut = "/opt/homebrew/bin/gcut";
   ## environment fix for nix/brew & virt-manager & simple-scan
   environment.shellAliases.virt-manager =
     "OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES='' XDG_DATA_DIRS='' /opt/homebrew/bin/virt-manager --no-fork";
