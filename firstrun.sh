@@ -1,6 +1,6 @@
 #!/bin/bash
 
-configCreate (){
+configCreate () {
 	mkdir -p ~/.config/nvim
 	echo "set clipboard=unnamedplus" > ~/.config/nvim/init.vim
 }
