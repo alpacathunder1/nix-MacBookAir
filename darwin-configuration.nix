@@ -59,6 +59,7 @@
     "tabby"
     "keka"
     "obsidian"
+    "notion"
     "parsec"
     "puppetlabs/puppet/pdk"
     "rectangle"
