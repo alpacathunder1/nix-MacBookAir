@@ -22,7 +22,6 @@
     pkgs.openssl
     pkgs.pandoc
     pkgs.parallel
-    pkgs.pipx
     pkgs.python3
     pkgs.ranger
     pkgs.ripgrep
